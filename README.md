@@ -2,9 +2,11 @@
 Food Calorie Analysis and Comparison Using Fine-Tuned Models.
 
 ## 📚 Introduction
-This project aims to analyze food calorie data and compare the performance of a fine-tuned model against GPT-4. It includes data from Kaggle, example images of food, and a Jupyter notebook for model fine-tuning and comparison.
+This project involves developing an application that can identify the number of calories in food items by analyzing images. The idea is to take a picture of the food, and the application will use AI to estimate the calorie content.
 
-This project is a playground to find calories by images application.
+Our objective is to fine-tune a model and use the trained model for this application. However, after fine-tuning the GPT-4 model, it stopped working for image prompts. 
+
+Next, vision tuning will be attempted.
 
 ## 🗂 Repository Structure
 The repository is organized into the following folders and files:
@@ -19,6 +21,7 @@ The `images` folder includes example images of different foods. These images are
 ### 📓 Notebooks
 1. `finetune_model_notebook.ipynb`: This Jupyter notebook contains the code for fine-tuning a pre-trained model on the food calorie dataset.
 2. `chat_example.ipynb`: This Jupyter notebook provides examples of how to compare the performance of the fine-tuned model with GPT-4.
+3. `image_promting.ipynb`: There is an image promting example from OpenAI.
 
 ## 🚀 How to Use
 1. **📦 Install Dependencies**: Ensure you have the necessary Python packages installed.
